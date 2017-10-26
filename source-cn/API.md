@@ -1,5 +1,4 @@
-API
-===
+# API
 
 ## RxSwift支持的操作符
 
@@ -11,88 +10,88 @@ API
 
 #### 创建 Observables
 
- * [`asObservable`](http://reactivex.io/documentation/operators/from.html)
- * [`create`](http://reactivex.io/documentation/operators/create.html)
- * [`deferred`](http://reactivex.io/documentation/operators/defer.html)
- * [`empty`](http://reactivex.io/documentation/operators/empty-never-throw.html)
- * [`error`](http://reactivex.io/documentation/operators/empty-never-throw.html)
- * [`toObservable` (array)](http://reactivex.io/documentation/operators/from.html)
- * [`interval`](http://reactivex.io/documentation/operators/interval.html)
- * [`never`](http://reactivex.io/documentation/operators/empty-never-throw.html)
- * [`just`](http://reactivex.io/documentation/operators/just.html)
- * [`of`](http://reactivex.io/documentation/operators/from.html)
- * [`range`](http://reactivex.io/documentation/operators/range.html)
- * [`repeatElement`](http://reactivex.io/documentation/operators/repeat.html)
- * [`timer`](http://reactivex.io/documentation/operators/timer.html)
+* [`asObservable`](http://reactivex.io/documentation/operators/from.html)
+* [`create`](http://reactivex.io/documentation/operators/create.html)
+* [`deferred`](http://reactivex.io/documentation/operators/defer.html)
+* [`empty`](http://reactivex.io/documentation/operators/empty-never-throw.html)
+* [`error`](http://reactivex.io/documentation/operators/empty-never-throw.html)
+* [`toObservable` \(array\)](http://reactivex.io/documentation/operators/from.html)
+* [`interval`](http://reactivex.io/documentation/operators/interval.html)
+* [`never`](http://reactivex.io/documentation/operators/empty-never-throw.html)
+* [`just`](http://reactivex.io/documentation/operators/just.html)
+* [`of`](http://reactivex.io/documentation/operators/from.html)
+* [`range`](http://reactivex.io/documentation/operators/range.html)
+* [`repeatElement`](http://reactivex.io/documentation/operators/repeat.html)
+* [`timer`](http://reactivex.io/documentation/operators/timer.html)
 
 #### 变换操作
 
-  * [`buffer`](http://reactivex.io/documentation/operators/buffer.html)
-  * [`flatMap`](http://reactivex.io/documentation/operators/flatmap.html)
-  * [`flatMapFirst`](http://reactivex.io/documentation/operators/flatmap.html)
-  * [`flatMapLatest`](http://reactivex.io/documentation/operators/flatmap.html)
-  * [`map`](http://reactivex.io/documentation/operators/map.html)
-  * [`scan`](http://reactivex.io/documentation/operators/scan.html)
-  * [`window`](http://reactivex.io/documentation/operators/window.html)
+* [`buffer`](http://reactivex.io/documentation/operators/buffer.html)
+* [`flatMap`](http://reactivex.io/documentation/operators/flatmap.html)
+* [`flatMapFirst`](http://reactivex.io/documentation/operators/flatmap.html)
+* [`flatMapLatest`](http://reactivex.io/documentation/operators/flatmap.html)
+* [`map`](http://reactivex.io/documentation/operators/map.html)
+* [`scan`](http://reactivex.io/documentation/operators/scan.html)
+* [`window`](http://reactivex.io/documentation/operators/window.html)
 
 #### 过滤操作
 
-  * [`debounce` / `throttle`](http://reactivex.io/documentation/operators/debounce.html)
-  * [`distinctUntilChanged`](http://reactivex.io/documentation/operators/distinct.html)
-  * [`elementAt`](http://reactivex.io/documentation/operators/elementat.html)
-  * [`filter`](http://reactivex.io/documentation/operators/filter.html)
-  * [`sample`](http://reactivex.io/documentation/operators/sample.html)
-  * [`skip`](http://reactivex.io/documentation/operators/skip.html)
-  * [`take`](http://reactivex.io/documentation/operators/take.html)
-  * [`takeLast`](http://reactivex.io/documentation/operators/takelast.html)
-  * [`single`](http://reactivex.io/documentation/operators/first.html)
+* [`debounce` / `throttle`](http://reactivex.io/documentation/operators/debounce.html)
+* [`distinctUntilChanged`](http://reactivex.io/documentation/operators/distinct.html)
+* [`elementAt`](http://reactivex.io/documentation/operators/elementat.html)
+* [`filter`](http://reactivex.io/documentation/operators/filter.html)
+* [`sample`](http://reactivex.io/documentation/operators/sample.html)
+* [`skip`](http://reactivex.io/documentation/operators/skip.html)
+* [`take`](http://reactivex.io/documentation/operators/take.html)
+* [`takeLast`](http://reactivex.io/documentation/operators/takelast.html)
+* [`single`](http://reactivex.io/documentation/operators/first.html)
 
 #### 结合操作
 
-  * [`merge`](http://reactivex.io/documentation/operators/merge.html)
-  * [`startWith`](http://reactivex.io/documentation/operators/startwith.html)
-  * [`switchLatest`](http://reactivex.io/documentation/operators/switch.html)
-  * [`combineLatest`](http://reactivex.io/documentation/operators/combinelatest.html)
-  * [`zip`](http://reactivex.io/documentation/operators/zip.html)
+* [`merge`](http://reactivex.io/documentation/operators/merge.html)
+* [`startWith`](http://reactivex.io/documentation/operators/startwith.html)
+* [`switchLatest`](http://reactivex.io/documentation/operators/switch.html)
+* [`combineLatest`](http://reactivex.io/documentation/operators/combinelatest.html)
+* [`zip`](http://reactivex.io/documentation/operators/zip.html)
 
 #### 错误处理
 
- * [`catch`](http://reactivex.io/documentation/operators/catch.html)
- * [`retry`](http://reactivex.io/documentation/operators/retry.html)
- * [`retryWhen`](http://reactivex.io/documentation/operators/retry.html)
+* [`catch`](http://reactivex.io/documentation/operators/catch.html)
+* [`retry`](http://reactivex.io/documentation/operators/retry.html)
+* [`retryWhen`](http://reactivex.io/documentation/operators/retry.html)
 
 #### 辅助操作
 
-  * [`delaySubscription`](http://reactivex.io/documentation/operators/delay.html)
-  * [`do` / `doOnNext`](http://reactivex.io/documentation/operators/do.html)
-  * [`observeOn` / `observeSingleOn`](http://reactivex.io/documentation/operators/observeon.html)
-  * [`subscribe`](http://reactivex.io/documentation/operators/subscribe.html)
-  * [`subscribeOn`](http://reactivex.io/documentation/operators/subscribeon.html)
-  * [`timeout`](http://reactivex.io/documentation/operators/timeout.html)
-  * [`using`](http://reactivex.io/documentation/operators/using.html)
-  * debug
+* [`delaySubscription`](http://reactivex.io/documentation/operators/delay.html)
+* [`do` / `doOnNext`](http://reactivex.io/documentation/operators/do.html)
+* [`observeOn` / `observeSingleOn`](http://reactivex.io/documentation/operators/observeon.html)
+* [`subscribe`](http://reactivex.io/documentation/operators/subscribe.html)
+* [`subscribeOn`](http://reactivex.io/documentation/operators/subscribeon.html)
+* [`timeout`](http://reactivex.io/documentation/operators/timeout.html)
+* [`using`](http://reactivex.io/documentation/operators/using.html)
+* debug
 
 #### 条件和布尔操作
 
-  * [`amb`](http://reactivex.io/documentation/operators/amb.html)
-  * [`skipWhile`](http://reactivex.io/documentation/operators/skipwhile.html)
-  * [`skipUntil`](http://reactivex.io/documentation/operators/skipuntil.html)
-  * [`takeUntil`](http://reactivex.io/documentation/operators/takeuntil.html)
-  * [`takeWhile`](http://reactivex.io/documentation/operators/takewhile.html)
+* [`amb`](http://reactivex.io/documentation/operators/amb.html)
+* [`skipWhile`](http://reactivex.io/documentation/operators/skipwhile.html)
+* [`skipUntil`](http://reactivex.io/documentation/operators/skipuntil.html)
+* [`takeUntil`](http://reactivex.io/documentation/operators/takeuntil.html)
+* [`takeWhile`](http://reactivex.io/documentation/operators/takewhile.html)
 
 #### 算数和聚合操作
 
-  * [`concat`](http://reactivex.io/documentation/operators/concat.html)
-  * [`reduce` / `aggregate`](http://reactivex.io/documentation/operators/reduce.html)
-  * [`toArray`](http://reactivex.io/documentation/operators/to.html)
+* [`concat`](http://reactivex.io/documentation/operators/concat.html)
+* [`reduce` / `aggregate`](http://reactivex.io/documentation/operators/reduce.html)
+* [`toArray`](http://reactivex.io/documentation/operators/to.html)
 
 #### 连接操作
 
-  * [`multicast`](http://reactivex.io/documentation/operators/publish.html)
-  * [`publish`](http://reactivex.io/documentation/operators/publish.html)
-  * [`refCount`](http://reactivex.io/documentation/operators/refcount.html)
-  * [`replay`](http://reactivex.io/documentation/operators/replay.html)
-  * [`shareReplay`](http://reactivex.io/documentation/operators/replay.html)
+* [`multicast`](http://reactivex.io/documentation/operators/publish.html)
+* [`publish`](http://reactivex.io/documentation/operators/publish.html)
+* [`refCount`](http://reactivex.io/documentation/operators/refcount.html)
+* [`replay`](http://reactivex.io/documentation/operators/replay.html)
+* [`shareReplay`](http://reactivex.io/documentation/operators/replay.html)
 
 创建新的操作符同样也很简单。
 
@@ -101,7 +100,6 @@ API
 **iOS / OSX**
 
 ```swift
-
 extension NSObject {
 
     public var rx_deallocated: Observable<Void> {}
@@ -113,9 +111,7 @@ extension NSObject {
 #endif
 
 }
-
 ```
-
 
 ```swift
 extension NSObject {
@@ -210,14 +206,12 @@ extension CLLocationManager {
 **iOS**
 
 ```swift
-
 extension UIControl {
 
     public func rx_controlEvent(controlEvents: UIControlEvents) -> ControlEvent<Void> {}
 
     public var rx_enabled: ObserverOf<Bool> {}
 }
-
 ```
 
 ```swift
@@ -429,7 +423,6 @@ extension NSControl {
 ```
 
 ```swift
-
 extension NSSlider {
 
     public var rx_value: ControlProperty<Double> {}
@@ -473,3 +466,6 @@ extension UITabBarItem {
 
 }
 ```
+
+
+
